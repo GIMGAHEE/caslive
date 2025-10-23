@@ -1,0 +1,20 @@
+{
+  "name": "caslive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm:serve\" \"npm:sass:watch\"",
+    "serve": "http-server -c-1 -p 5173 .",
+    "sass:watch": "sass --no-source-map src/scss:public/css",
+    "build": "sass --style=compressed src/scss:public/css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "http-server": "^14.1.1",
+    "sass": "^1.93.2"
+  }
+}

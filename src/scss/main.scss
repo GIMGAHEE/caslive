@@ -1,0 +1,9 @@
+$font: system-ui, -apple-system, Roboto, "Noto Sans KR", sans-serif;
+$bg: #fff; $fg: #111; $bg-dark: #0b1020; $fg-dark: #eee;
+$brand: #2563eb;
+
+body { font-family: $font; color: $fg; background: $bg; margin: 0; }
+.container { max-width: 960px; margin: 0 auto; padding: 1rem; }
+header, footer { display: flex; justify-content: space-between; align-items: center; padding: 1rem; border-bottom: 1px solid #ccc; }
+footer { border-top: 1px solid #ccc; border-bottom: 0; margin-top: 3rem; }
+.dark { background: $bg-dark; color: $fg-dark; }
